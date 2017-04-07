@@ -16,4 +16,5 @@ void displaySplash (){
 
         splash.close();
 }
+
 #endif // DISPLAY_H_INCLUDED
