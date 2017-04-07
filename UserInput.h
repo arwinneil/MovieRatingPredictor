@@ -48,6 +48,9 @@ string getDataPath(){
 
     }while(valid==0);
 
+        cout<<"File loaded successfully. ";
+        system("pause");
+
     return path;
 }
 
