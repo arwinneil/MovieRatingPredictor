@@ -33,8 +33,24 @@ string getDataPath(){
                         ifstream checkfile(file_);
 
                         if(checkfile.good()){           //Checks if file exists
-                            valid= checkfile.good();
+
                             checkfile.close();
+
+                             cout<<"Checking internal file structure..."<<endl;
+
+                             ifstream file(path.c_str());
+                             string checkline;
+                             file>>checkline;
+
+                             if (checkline=="movie_title,genres,duration,content_rating,budget,imdb_score"){
+
+                                cout<<"Internal file structure validated!"<<endl;
+                                valid=1;
+                             }else{
+
+                              cout<<"Internal file structure invalidate, CSV format is movie_title,genres,duration,content_rating,budget,imdb_score"<<endl<<endl;
+                              valid=0;
+                             }
 
                         }else{
                                 cout<<"File does not exist or is corrupt."<<endl<<endl;
