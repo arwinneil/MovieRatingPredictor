@@ -32,14 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Structures.h">
-			<Option compile="1" />
-			<Option link="1" />
-		</Unit>
-		<Unit filename="UserInput.h">
-			<Option compile="1" />
-		</Unit>
+		<Unit filename="display.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="structs.h" />
+		<Unit filename="userInput.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
