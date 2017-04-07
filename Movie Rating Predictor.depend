@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1491591076 source:c:\users\admin\assignment\movie rating predictor\main.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<UserInput.h>
+
+1491591073 source:c:\users\admin\assignment\movie rating predictor\userinput.h
+	<iostream>
+	<string>
+	<fstream>
+
+1491591073 c:\users\admin\assignment\movie rating predictor\\userinput.h
+	<iostream>
+	<string>
+	<fstream>
+
