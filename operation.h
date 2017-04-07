@@ -7,9 +7,12 @@
 using namespace std;
 
 string getDataPath(){
+
+
     //function prompts user to input file path, gets the path and
     //checks input for correct file extension, then checks if file
-    //exists. Errors are displayed for appropriate scenarios.
+    //exists,then check if the file is an appropriate dataset.
+    // Errors are displayed for appropriate scenarios.
 
     string path;
     bool valid=0;
@@ -44,7 +47,7 @@ string getDataPath(){
 
                              if (checkline=="movie_title,genres,duration,content_rating,budget,imdb_score"){
 
-                                cout<<"Internal file structure validated!"<<endl;
+                                cout<<"Internal file structure validated!"<<endl<<endl;
                                 valid=1;
                              }else{
 
@@ -69,6 +72,31 @@ string getDataPath(){
 
     return path;
 }
+
+string getMenuInput(){
+    //function prompts user to enter menu choice
+    //loops until a valid choice is made
+    string choice;
+    bool valid=0; //for checking if user input is valid;
+
+    do{
+
+        cout<<endl<<"Please enter 1,2 or 0 :";
+        cin>>choice;
+
+        if((choice=="1")|(choice=="2")|(choice=="0")){
+            valid=1;
+        }else{
+        cout<<endl<<"Invalid choice!";
+        }
+
+    }while(valid==0);
+
+
+    return choice;
+
+}
+
 
 
 #endif // OPERATION_H_INCLUDED
