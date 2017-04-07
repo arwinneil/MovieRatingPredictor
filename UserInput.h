@@ -25,26 +25,23 @@ string getDataPath(){
 
         }else{
 
+            if (path.substr((path.size()-4),4)!= ".csv"){
+                cout<<"Wrong extension, please input correct file path."<<endl<<endl;
 
-        if (path.substr((path.size()-4),4)!= ".csv"){
-            cout<<"Wrong extension, please input correct file path."<<endl<<endl;
+                }else{
+                        const char* file_ = path.c_str(); //converts string to char*
+                        ifstream checkfile(file_);
 
-            }else{
-                    const char* file_ = path.c_str(); //converts string to char*
-                    ifstream checkfile(file_);
-
-                    if(checkfile.good()){           //Checks if file exists
-                        valid= checkfile.good();
-                        checkfile.close();
-
-                    }else{
-                            cout<<"File does not exist or is corrupt."<<endl<<endl;
+                        if(checkfile.good()){           //Checks if file exists
+                            valid= checkfile.good();
                             checkfile.close();
 
-                         }
-                }
+                        }else{
+                                cout<<"File does not exist or is corrupt."<<endl<<endl;
+                                checkfile.close();
 
-
+                             }
+                    }
         }
 
 
