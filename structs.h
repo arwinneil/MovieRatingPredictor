@@ -3,14 +3,18 @@
 #include <iostream>
 #include <string>
 #include<fstream>
+using namespace std;
+
 
 
 struct movie {  //Structure for movie
-  int duration;
-  int budget;
-  string age_rating;
-  string genre;
-  float rating;
+
+    string title;
+    string genre;
+    int duration;
+    string age_rating;
+    int budget;
+    float rating;
 } ;
 
 struct point{  //Structure representing two points on a graph

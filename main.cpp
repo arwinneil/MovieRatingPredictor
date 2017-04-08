@@ -14,18 +14,24 @@ int main(){
 
     data_path=getDataPath();
 
-    displayMenu();
+    do{displayMenu();
 
-    string choice =getMenuInput();
-    if(choice=="1"){
+        string choice =getMenuInput();
+        if(choice=="1"){
 
-    }else if (choice=="2"){
 
-    }else{
-        cout<<endl<<"Movie Rating Predictor will now exit...";
-        system("pause");
-        return 0;
-    }
+        }else if (choice=="2"){
+
+             addNewData(data_path);
+
+        }else{
+           break;
+        }
+    }while(true);
+
+
+    cout<<endl<<"Movie Rating Predictor will now exit..."<<endl;
+    system("pause");
 
     return 0;
 }
