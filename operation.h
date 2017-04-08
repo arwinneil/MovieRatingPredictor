@@ -106,10 +106,10 @@ void addNewData(string path){
     cout<<endl<<"*******************   Movie Dataset Update   ***********************"<<endl<<endl;
 
     cout<<"Enter movie title: ";getline(cin.ignore(),new_movie.title);
-    cout<<"Enter movie duration (min): ";cin>>new_movie.duration;
-    cout<<"Enter movie budget ($): ";cin>>new_movie.budget;
-    cout<<"Enter movie age rating : ";cin>>new_movie.age_rating;
     cout<<"Enter movie genres (Separate genres with '|', no spaces ): ";getline(cin.ignore(),new_movie.genre);
+    cout<<"Enter movie duration (min): ";cin>>new_movie.duration;
+    cout<<"Enter movie age rating : ";cin>>new_movie.age_rating;
+    cout<<"Enter movie budget ($): ";cin>>new_movie.budget;
     cout<<"Enter movie rating (0.0-10.0) : ";cin>>new_movie.rating;
 
     ofstream file(path,ios::app); //Opening file for append
