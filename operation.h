@@ -75,6 +75,7 @@ string getDataPath(){
 }
 
 string getMenuInput(){
+
     //function prompts user to enter menu choice
     //loops until a valid choice is made
     string choice;
@@ -98,10 +99,9 @@ string getMenuInput(){
 
 }
 
-void addNewData(string path){
-    //function gets movie details from user and
-    //appends details to dataset
-    movie new_movie;
+movie getMovieDetails(){
+    //function gets movie details from user and returns it as movie
+     movie new_movie;
 
     cout<<endl<<"*******************   Movie Dataset Update   ***********************"<<endl<<endl;
 
@@ -111,6 +111,18 @@ void addNewData(string path){
     cout<<"Enter movie age rating : ";cin>>new_movie.age_rating;
     cout<<"Enter movie budget ($): ";cin>>new_movie.budget;
     cout<<"Enter movie rating (0.0-10.0) : ";cin>>new_movie.rating;
+
+}
+
+void predictRating(string path){
+
+}
+
+void addNewData(string path){
+    //gets movie details
+    //appends details to dataset
+
+    movie new_movie=getMovieDetails();
 
     ofstream file(path,ios::app); //Opening file for append
 

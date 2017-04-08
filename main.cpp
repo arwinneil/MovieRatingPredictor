@@ -19,16 +19,19 @@ int main(){
         string choice =getMenuInput();
         if(choice=="1"){
 
+            predictRating(data_path);
 
         }else if (choice=="2"){
 
              addNewData(data_path);
 
         }else{
-           break;
-        }
-    }while(true);
 
+           break;
+
+        }
+
+    }while(true);
 
     cout<<endl<<"Movie Rating Predictor will now exit..."<<endl;
     system("pause");

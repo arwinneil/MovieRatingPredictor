@@ -20,7 +20,4 @@ struct point{  //Structure representing two points on a graph
    double y;
 };
 
-
-
-
 #endif // STRUCTURES_H_INCLUDED
