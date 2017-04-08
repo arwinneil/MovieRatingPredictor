@@ -112,6 +112,8 @@ movie getMovieDetails(){
     cout<<"Enter movie budget ($): ";cin>>new_movie.budget;
     cout<<"Enter movie rating (0.0-10.0) : ";cin>>new_movie.rating;
 
+    return new_movie;
+
 }
 
 void predictRating(string path){
