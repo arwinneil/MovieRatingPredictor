@@ -25,9 +25,12 @@ int main(){
 
              addNewData(data_path);
 
-        }else{
+        }else if (choice=="0"){
 
            break;
+
+        }else{
+            cout<<endl<<"Choice Invalid"<<endl;
 
         }
 
