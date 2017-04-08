@@ -18,6 +18,9 @@ void displaySplash (){
 }
 
 void displayMenu(){
+
+    //function displays the main menu
+
     system("CLS");
     displaySplash();
 

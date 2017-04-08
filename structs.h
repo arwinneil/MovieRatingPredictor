@@ -5,8 +5,6 @@
 #include<fstream>
 using namespace std;
 
-
-
 struct movie {  //Structure for movie
 
     string title;
