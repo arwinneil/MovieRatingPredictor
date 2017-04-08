@@ -26,8 +26,4 @@ void displayMenu(){
 
     cout<<"0. EXIT"<<endl;
 }
-
-
-
-
 #endif // DISPLAY_H_INCLUDED

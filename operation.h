@@ -99,9 +99,9 @@ string getMenuInput(){
 }
 
 void addNewData(string path){
-
+    //function gets movie details from user and
+    //appends details to dataset
     movie new_movie;
-
 
     cout<<endl<<"*******************   Movie Dataset Update   ***********************"<<endl<<endl;
 
@@ -113,13 +113,13 @@ void addNewData(string path){
     cout<<"Enter movie rating (0.0-10.0) : ";cin>>new_movie.rating;
 
     ofstream file(path,ios::app); //Opening file for append
+
     file<<endl<<new_movie.title<<","<<new_movie.genre<<","<<new_movie.duration<<","<<new_movie.age_rating<<","<<new_movie.budget<<","<<new_movie.rating;
 
     file.close();
 
     cout<<endl<<"Dataset updated, program will return to main menu.";
     system("pause");
-
 }
 
 #endif // OPERATION_H_INCLUDED
