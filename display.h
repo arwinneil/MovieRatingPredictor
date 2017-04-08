@@ -6,15 +6,15 @@
 using namespace std;
 
 void displaySplash (){
-//function displays splash from file
+//function displays splash stored in a  file
     string line;//line buffer
-    ifstream splash("splash.txt");
+    ifstream splash("splash.txt"); //opens splash file for input
 
         while (getline(splash,line)){
             cout<<line<<endl;
         }
 
-        splash.close();
+        splash.close(); //close the file
 }
 
 void displayMenu(){
