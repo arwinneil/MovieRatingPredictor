@@ -21,4 +21,10 @@ struct point   //Structure representing two points on a graph
     double y;
 };
 
+struct equation   //Structure representing two points on a graph
+{
+    double coeff;
+    double y_intercept;
+};
+
 #endif // STRUCTURES_H_INCLUDED

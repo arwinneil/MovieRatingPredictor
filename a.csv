@@ -2,5 +2,65 @@ movie_title,genres,duration,content_rating,budget,imdb_score
 Avatar,Action|Adventure|Fantasy|Sci-Fi,178,PG-13,237000000,7.9
 Pirates of the Caribbean: At World's End,Action|Adventure|Fantasy,169,PG-13,300000000,7.1
 Spectre,Action|Adventure|Thriller,148,PG-13,245000000,6.8
-Moon of Bood,Action|Adventure,120,PG-13,29909090,4.5
-Momo the fucking cow,dventure|Reality|Adult,120,R,2147483647,6.5
+Avatar,Action|Adventure|Fantasy|Sci-Fi,178,PG-13,237000000,7.9
+Pirates of the Caribbean: At World's End,Action|Adventure|Fantasy,169,PG-13,300000000,7.1
+Spectre,Action|Adventure|Thriller,148,PG-13,245000000,6.8
+The Dark Knight Rises,Action|Thriller,164,PG-13,250000000,8.5
+John Carter,Action|Adventure|Sci-Fi,132,PG-13,263700000,6.6
+Spider-Man 3,Action|Adventure|Romance,156,PG-13,258000000,6.2
+Tangled,Adventure|Animation|Comedy|Family|Fantasy|Musical|Romance,100,PG,260000000,7.8
+Avengers: Age of Ultron,Action|Adventure|Sci-Fi,141,PG-13,250000000,7.5
+Harry Potter and the Half-Blood Prince,Adventure|Family|Fantasy|Mystery,153,PG,250000000,7.5
+Batman v Superman: Dawn of Justice,Action|Adventure|Sci-Fi,183,PG-13,250000000,6.9
+Superman Returns,Action|Adventure|Sci-Fi,169,PG-13,209000000,6.1
+Quantum of Solace,Action|Adventure,106,PG-13,200000000,6.7
+Pirates of the Caribbean: Dead Man's Chest,Action|Adventure|Fantasy,151,PG-13,225000000,7.3
+The Lone Ranger,Action|Adventure|Western,150,PG-13,215000000,6.5
+Man of Steel,Action|Adventure|Fantasy|Sci-Fi,143,PG-13,225000000,7.2
+The Chronicles of Narnia: Prince Caspian,Action|Adventure|Family|Fantasy,150,PG,225000000,6.6
+The Avengers,Action|Adventure|Sci-Fi,173,PG-13,220000000,8.1
+Pirates of the Caribbean: On Stranger Tides,Action|Adventure|Fantasy,136,PG-13,250000000,6.7
+Men in Black 3,Action|Adventure|Comedy|Family|Fantasy|Sci-Fi,106,PG-13,225000000,6.8
+The Hobbit: The Battle of the Five Armies,Adventure|Fantasy,164,PG-13,250000000,7.5
+The Amazing Spider-Man,Action|Adventure|Fantasy,153,PG-13,230000000,7
+Robin Hood,Action|Adventure|Drama|History,156,PG-13,200000000,6.7
+The Hobbit: The Desolation of Smaug,Adventure|Fantasy,186,PG-13,225000000,7.9
+The Golden Compass,Adventure|Family|Fantasy,113,PG-13,180000000,6.1
+King Kong,Action|Adventure|Drama|Romance,201,PG-13,207000000,7.2
+Titanic,Drama|Romance,194,PG-13,200000000,7.7
+Captain America: Civil War,Action|Adventure|Sci-Fi,147,PG-13,250000000,8.2
+Battleship,Action|Adventure|Sci-Fi|Thriller,131,PG-13,209000000,5.9
+Jurassic World,Action|Adventure|Sci-Fi|Thriller,124,PG-13,150000000,7
+Skyfall,Action|Adventure|Thriller,143,PG-13,200000000,7.8
+Spider-Man 2,Action|Adventure|Fantasy|Romance,135,PG-13,200000000,7.3
+Iron Man 3,Action|Adventure|Sci-Fi,195,PG-13,200000000,7.2
+Alice in Wonderland,Adventure|Family|Fantasy,108,PG,200000000,6.5
+X-Men: The Last Stand,Action|Adventure|Fantasy|Sci-Fi|Thriller,104,PG-13,210000000,6.8
+Monsters University,Adventure|Animation|Comedy|Family|Fantasy,104,G,200000000,7.3
+Transformers: Revenge of the Fallen,Action|Adventure|Sci-Fi,150,PG-13,200000000,6
+Transformers: Age of Extinction,Action|Adventure|Sci-Fi,165,PG-13,210000000,5.7
+Oz the Great and Powerful,Adventure|Family|Fantasy,130,PG,215000000,6.4
+The Amazing Spider-Man 2,Action|Adventure|Fantasy|Sci-Fi,142,PG-13,200000000,6.7
+TRON: Legacy,Action|Adventure|Sci-Fi,125,PG,170000000,6.8
+Cars 2,Adventure|Animation|Comedy|Family|Sport,106,G,200000000,6.3
+Green Lantern,Action|Adventure|Sci-Fi,123,PG-13,200000000,5.6
+Toy Story 3,Adventure|Animation|Comedy|Family|Fantasy,103,G,200000000,8.3
+Terminator Salvation,Action|Adventure|Sci-Fi,118,PG-13,200000000,6.6
+Furious 7,Action|Crime|Thriller,140,PG-13,190000000,7.2
+World War Z,Action|Adventure|Horror|Sci-Fi|Thriller,123,PG-13,190000000,7
+X-Men: Days of Future Past,Action|Adventure|Fantasy|Sci-Fi|Thriller,149,PG-13,200000000,8
+Star Trek Into Darkness,Action|Adventure|Sci-Fi,132,PG-13,190000000,7.8
+Jack the Giant Slayer,Adventure|Fantasy,114,PG-13,195000000,6.3
+The Great Gatsby,Drama|Romance,143,PG-13,105000000,7.3
+Prince of Persia: The Sands of Time,Action|Adventure|Fantasy|Romance,116,PG-13,200000000,6.6
+Pacific Rim,Action|Adventure|Sci-Fi,131,PG-13,190000000,7
+Transformers: Dark of the Moon,Action|Adventure|Sci-Fi,154,PG-13,195000000,6.3
+Indiana Jones and the Kingdom of the Crystal Skull,Action|Adventure|Fantasy,122,PG-13,185000000,6.2
+Brave,Adventure|Animation|Comedy|Family|Fantasy,93,PG,185000000,7.2
+Star Trek Beyond,Action|Adventure|Sci-Fi|Thriller,122,PG-13,185000000,7.5
+WALL·E,Adventure|Animation|Family|Sci-Fi,98,G,180000000,8.4
+Rush Hour 3,Action|Comedy|Crime|Thriller,91,PG-13,140000000,6.2
+2012,Action|Adventure|Sci-Fi,158,PG-13,200000000,5.8
+A Christmas Carol,Animation|Drama|Family|Fantasy,96,PG,200000000,6.8
+Jupiter Ascending,Action|Adventure|Sci-Fi,127,PG-13,176000000,5.4
+The Legend of Tarzan,Action|Adventure|Drama|Romance,110,PG-13,180000000,6.6

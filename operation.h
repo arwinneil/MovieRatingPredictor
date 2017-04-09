@@ -51,6 +51,7 @@ string getDataPath(){
 
                                 cout<<"Internal file structure validated!"<<endl<<endl;
                                 valid=1;
+
                              }else{
 
                               cout<<"Internal file structure invalidate, CSV format is movie_title,genres,duration,content_rating,budget,imdb_score"<<endl<<endl;
@@ -130,28 +131,114 @@ movie toMovie(string line){
 
         new_movie.rating= strtof((line.substr(0,(line.find(",")))).c_str(),0); //Reads rating up to first comma
 
-        displayMovie(new_movie);
-        system("pause");
-
         return new_movie;
 }
 
-int computeL2(string dataset){
+equation computeL2(string dataset,string independent_var){
+
+    double SUMx = 0;     //sum of x values
+    double SUMx_AVGx = 0;    //sum of x values - average x
+    double SUMy = 0;     //sum of y values
+    double SUMy_AVGy =0; //sum of y values - average y
+    double SUMxy =0; //sum of y values - average y
+    double SUMx2 =0; //sum of y values - average y
+    double AVGy = 0;     //mean of y
+    double AVGx = 0;     //mean of x
+    double slope = 0;    //slope of regression line
+    double y_intercept = 0; //y intercept of regression line
+
+    point Point;
+
+    int dataSize =0;
 
     movie movie_data;
     ifstream file(dataset); //Opening file input
     string buffer;
 
+    getline(file,buffer);
+
     while (getline(file,buffer)){
-        movie movie_buffer=toMovie(buffer);
-       // cout<<movie_buffer.title<<endl;
+            movie movie_buffer=toMovie(buffer);
+
+            Point.y=movie_buffer.rating;
+            if (independent_var=="duration"){
+                Point.x=movie_buffer.duration;
+
+            }else{
+                Point.x=movie_buffer.budget;
+
+            }
+
+            SUMx = SUMx+Point.x;
+
+            SUMy = SUMy+ Point.y;
+
+            dataSize++;
+
+    }
+    file.close();
+
+    cout<<"Least-Square Linear Regression of "<<independent_var<<" : " <<dataSize<<" records being processed..."<<endl;
+
+        //calculate the means of x and y
+        AVGy = SUMy / dataSize;
+        AVGx = SUMx / dataSize;
+
+        file.open(dataset);
+
+    while (getline(file,buffer)){
+                movie movie_buffer=toMovie(buffer);
+
+                Point.y=movie_buffer.rating;
+                if (independent_var=="duration"){
+                    Point.x=movie_buffer.duration;
+
+                }else{
+                    Point.x=movie_buffer.budget;
+                }
+
+                SUMx_AVGx += (Point.x-AVGx);
+                SUMy_AVGy +=(Point.y-AVGy);
+
+                SUMxy+=(SUMx_AVGx*SUMy_AVGy);
+
+                SUMx2=SUMx_AVGx*SUMx_AVGx;
 
         }
+
+
+
+        slope = SUMxy/SUMx2 ;
+        y_intercept = AVGy - slope * AVGy;
+
+        cout<< ("The linear equation that best fits the given data:\n");
+        cout<< "       y = "<<slope<<"x + "<<y_intercept<<endl;
+
+        equation eqn;
+        eqn.coeff=slope;
+        eqn.y_intercept=y_intercept;
+        return eqn;
+
+
 }
 
 void predictRating(string dataset){
-computeL2(dataset);
-system("pause");
+
+
+
+
+    equation eqn=computeL2(dataset,"duration");
+    double duration_based_rating=120*eqn.coeff+eqn.y_intercept;
+    cout<< "Predicted rating from duration : "<<duration_based_rating<<endl;
+
+
+    eqn=computeL2(dataset,"budget");
+    double budget_based_rating=12000000*eqn.coeff+eqn.y_intercept;
+    cout<< "Predicted rating from budget : "<<budget_based_rating<<endl;
+
+
+    system("pause");
+
 }
 
 void addNewData(string path){
