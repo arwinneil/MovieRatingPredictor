@@ -29,4 +29,18 @@ void displayMenu(){
 
     cout<<"0. EXIT"<<endl;
 }
+
+void displayMovie(movie new_movie){
+
+        cout<<endl<<new_movie.title<<endl;
+        cout<<new_movie.genre<<endl;
+        cout<<new_movie.duration<<endl;
+        cout<<new_movie.age_rating<<endl;
+        cout<<new_movie.budget<<endl;
+        cout<<new_movie.rating<<endl;
+
+}
+
+
 #endif // DISPLAY_H_INCLUDED
+

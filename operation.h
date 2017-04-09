@@ -3,13 +3,15 @@
 #include <iostream>
 #include <string>
 #include<fstream>
+#include<cmath>
+#include<cstdlib>
+#include <cstddef>
 #include<structs.h>
+#include<display.h>
 
 using namespace std;
 
 string getDataPath(){
-
-
     //function prompts user to input file path, gets the path and
     //checks input for correct file extension, then checks if file
     //exists,then check if the file is an appropriate dataset.
@@ -75,7 +77,6 @@ string getDataPath(){
 }
 
 string getMenuInput(){
-
     //function prompts user to enter menu choice
     //loops until a valid choice is made
     string choice;
@@ -94,9 +95,7 @@ string getMenuInput(){
 
     }while(valid==0);
 
-
     return choice;
-
 }
 
 movie getMovieDetails(){
@@ -116,15 +115,58 @@ movie getMovieDetails(){
 
 }
 
-void predictRating(string path){
+movie toMovie(string line){
+     //function takes in a csv format data row and coverts it an object of type movie
+        string comma=",";
+        movie new_movie;
 
+        new_movie.title= line.substr(0,(line.find(","))); //Reads title up to first comma
+        line.erase(0,(line.find(",")+1));//erases string until and including first comma
+
+        new_movie.genre= line.substr(0,(line.find(","))); //Reads genre up to first comma
+        line.erase(0,(line.find(",")+1));//erases string until and including first comma
+
+        new_movie.duration= (strtol((line.substr(0,(line.find(",")))).c_str(),0,10)); //Reads duration up to first comma
+        line.erase(0,(line.find(",")+1));//erases string until and including first comma
+
+        new_movie.age_rating= line.substr(0,(line.find(","))); //Reads age_rating up to first comma
+        line.erase(0,(line.find(",")+1));//erases string until and including first comma
+
+        new_movie.budget= strtol(line.substr(0,(line.find(","))).c_str(),0,10); //Reads budget up to first comma
+        line.erase(0,(line.find(",")+1));//erases string until and including first comma
+
+        new_movie.rating= strtof((line.substr(0,(line.find(",")))).c_str(),0); //Reads rating up to first comma
+
+        displayMovie(new_movie);
+        system("pause");
+
+        return new_movie;
+}
+
+int computeL2(string dataset){
+
+    movie movie_data;
+    ifstream file(dataset); //Opening file input
+    string buffer;
+
+      while (getline(file,buffer)){
+
+        movie movie_buffer=toMovie(buffer);
+       // cout<<movie_buffer.title<<endl;
+
+        }
+}
+
+void predictRating(string dataset){
+computeL2(dataset);
+system("pause");
 }
 
 void addNewData(string path){
     //gets movie details
     //appends details to dataset
 
-    movie new_movie=getMovieDetails();
+    movie new_movie=getMovieDetails(); //retrieve movie details from getMovieDetail functions
 
     ofstream file(path,ios::app); //Opening file for append
 
