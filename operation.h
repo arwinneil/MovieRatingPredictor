@@ -97,14 +97,11 @@ movie getMovieDetails(){
     //function gets movie details from user and returns it as movie
     movie new_movie;
 
-    cout<<endl<<"*******************   Movie Dataset Update   ***********************"<<endl<<endl;
-
     cout<<"Enter movie title: ";getline(cin.ignore(),new_movie.title);
     cout<<"Enter movie genres (Separate genres with '|', no spaces ): ";getline(cin.ignore(),new_movie.genre);
     cout<<"Enter movie duration (min): ";cin>>new_movie.duration;
     cout<<"Enter movie age rating : ";cin>>new_movie.age_rating;
     cout<<"Enter movie budget ($): ";cin>>new_movie.budget;
-    cout<<"Enter movie rating (0.0-10.0) : ";cin>>new_movie.rating;
 
     return new_movie;
 }
@@ -137,15 +134,18 @@ movie toMovie(string line){
 equation computeL2(string dataset,string independent_var){
 
     double SUMx = 0;     //sum of x values
-    double SUMx_AVGx = 0;    //sum of x values - average x
     double SUMy = 0;     //sum of y values
-    double SUMy_AVGy =0; //sum of y values - average y
-    double SUMxy =0; //sum of y values - average y
-    double SUMx2 =0; //sum of y values - average y
-    double AVGy = 0;     //mean of y
-    double AVGx = 0;     //mean of x
+    double SUMxy = 0;    //sum of x * y
+    double SUMxx = 0;    //sum of x^2
+    double SUMres = 0;   //sum of squared residue
+    double res = 0;      //residue squared
     double slope = 0;    //slope of regression line
     double y_intercept = 0; //y intercept of regression line
+    double SUM_Yres = 0; //sum of squared of the discrepancies
+    double AVGy = 0;     //mean of y
+    double AVGx = 0;     //mean of x
+    double Yres = 0;     //squared of the discrepancies
+    double Rsqr = 0;     //coefficient of determination
 
     point Point;
 
@@ -160,6 +160,8 @@ equation computeL2(string dataset,string independent_var){
     while (getline(file,buffer)){
             movie movie_buffer=toMovie(buffer);
 
+
+
             Point.y=movie_buffer.rating;
             if (independent_var=="duration"){
                 Point.x=movie_buffer.duration;
@@ -173,67 +175,58 @@ equation computeL2(string dataset,string independent_var){
 
             SUMy = SUMy+ Point.y;
 
-            dataSize++;
+            SUMxy = SUMxy + (Point.x*Point.y);
 
+            SUMxx = SUMxx +(Point.x*Point.x);
+
+            dataSize++;
     }
     file.close();
 
-    cout<<"Least-Square Linear Regression of "<<independent_var<<" : " <<dataSize<<" records being processed..."<<endl;
+
+
+    cout<<endl<<"Least-Square Linear Regression of "<<independent_var<<" : " <<dataSize<<" records being processed..."<<endl;
 
         //calculate the means of x and y
         AVGy = SUMy / dataSize;
         AVGx = SUMx / dataSize;
 
-        file.open(dataset);
 
-    while (getline(file,buffer)){
-                movie movie_buffer=toMovie(buffer);
 
-                Point.y=movie_buffer.rating;
-                if (independent_var=="duration"){
-                    Point.x=movie_buffer.duration;
+    cout<<"Average "<<independent_var<<" is "<<SUMx<<endl;
+    cout<<"Average rating is "<<AVGy<<endl;
 
-                }else{
-                    Point.x=movie_buffer.budget;
-                }
+     //slope or a1
+   slope = (dataSize * SUMxy - SUMx * SUMy) / (dataSize * SUMxx - SUMx*SUMx);
 
-                SUMx_AVGx += (Point.x-AVGx);
-                SUMy_AVGy +=(Point.y-AVGy);
-
-                SUMxy+=(SUMx_AVGx*SUMy_AVGy);
-
-                SUMx2=SUMx_AVGx*SUMx_AVGx;
-
-        }
+   //y itercept or a0
+   y_intercept = AVGy - slope * AVGx;
 
 
 
-        slope = SUMxy/SUMx2 ;
-        y_intercept = AVGy - slope * AVGy;
+    cout<< ("The linear equation that best fits the given data:\n");
+    cout<< "       y = "<<slope<<"x + "<<y_intercept<<endl;
 
-        cout<< ("The linear equation that best fits the given data:\n");
-        cout<< "       y = "<<slope<<"x + "<<y_intercept<<endl;
-
-        equation eqn;
-        eqn.coeff=slope;
-        eqn.y_intercept=y_intercept;
-        return eqn;
+    equation eqn;
+    eqn.coeff=slope;
+    eqn.y_intercept=y_intercept;
+    return eqn;
 
 
 }
 
 void predictRating(string dataset){
 
+    cout<<endl<<"*******************   Movie Rating Prediction   ***********************"<<endl<<endl;
 
-
+    movie new_movie=getMovieDetails();
 
     equation eqn=computeL2(dataset,"duration");
-    double duration_based_rating=120*eqn.coeff+eqn.y_intercept;
-    cout<< "Predicted rating from duration : "<<duration_based_rating<<endl;
-
+    double duration_based_rating=new_movie.duration*eqn.coeff+eqn.y_intercept;
+    cout<< "Predicted rating from duration : "<<duration_based_rating<<endl<<endl;
 
     eqn=computeL2(dataset,"budget");
-    double budget_based_rating=12000000*eqn.coeff+eqn.y_intercept;
+    double budget_based_rating=new_movie.budget*eqn.coeff+eqn.y_intercept;
     cout<< "Predicted rating from budget : "<<budget_based_rating<<endl;
 
 
@@ -244,7 +237,10 @@ void predictRating(string dataset){
 void addNewData(string path){
     //gets movie details
     //appends details to dataset
+    cout<<endl<<"*******************   Movie Dataset Update   ***********************"<<endl<<endl;
+
     movie new_movie=getMovieDetails(); //retrieve movie details from getMovieDetail functions
+    cout<<"Enter movie rating (0.0-10.0) : ";cin>>new_movie.rating;
 
     ofstream file(path,ios::app); //Opening file for append
 

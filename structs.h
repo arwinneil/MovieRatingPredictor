@@ -18,7 +18,7 @@ struct movie    //Structure for movie
 struct point   //Structure representing two points on a graph
 {
     double x;
-    double y;
+    float y;
 };
 
 struct equation   //Structure representing two points on a graph
