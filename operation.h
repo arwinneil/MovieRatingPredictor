@@ -184,7 +184,7 @@ equation computeL2(string dataset,string independent_var){
     AVGy = SUMy / dataSize;
     AVGx = SUMx / dataSize;
 
-    cout<<"Average "<<independent_var<<" is "<<SUMx<<endl;
+    cout<<"Average "<<independent_var<<" is "<<AVGx<<endl;
     cout<<"Average rating is "<<AVGy<<endl;
 
     //slope or a1
