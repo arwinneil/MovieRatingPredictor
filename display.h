@@ -2,6 +2,7 @@
 #define DISPLAY_H_INCLUDED
 #include <iostream>
 #include <fstream>
+#include<structs.h>
 #include <stdlib.h>
 using namespace std;
 
@@ -36,6 +37,4 @@ void displayMovie(movie new_movie){
         cout<<new_movie.rating<<endl;
 }
 
-
 #endif // DISPLAY_H_INCLUDED
-

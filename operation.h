@@ -199,6 +199,67 @@ equation computeL2(string dataset,string independent_var){
     return eqn;
 }
 
+float computeAvearge(string dataset,string var,string val){
+
+    movie movie_data;
+    ifstream file(dataset); //Opening file input
+    string buffer;
+
+    float sumRating;
+    float avgRating;
+    int counter=0;
+
+    getline(file,buffer);
+
+    while (getline(file,buffer)){
+            movie movie_buffer=toMovie(buffer);
+
+            if(var=="age_rating"){
+
+                if (movie_buffer.age_rating==val){
+                    sumRating= sumRating+movie_buffer.rating;
+                    counter++;
+
+            }else{
+                        do{
+
+                        string current_genre;
+
+                            if((movie_buffer.genre.length()!=0)&&((movie_buffer.genre.find("|"))!=movie_buffer.genre.npos)){
+                                    current_genre= movie_buffer.genre.substr(0,(movie_buffer.genre.find("|"))); //Reads genre up to first |
+                                    movie_buffer.genre.erase(0,(movie_buffer.genre.find("|")+1));//erases string until and including first comma
+
+                            }else{
+                                   current_genre=movie_buffer.genre;
+                                    movie_buffer.genre ="";
+                                }
+                            cout<<endl<<"Current ans test genres are "<<current_genre<<" and "<<val<<endl;
+                            system("pause");
+
+                        if (val==current_genre){
+
+                        sumRating= sumRating+movie_buffer.rating;
+                        counter++;
+
+                        break;
+                        }
+
+
+
+                    }while(movie_buffer.genre.length()!=0);
+            }
+
+
+        }
+
+    }
+    cout<<endl<<"Average rating of "<<val<<" rated movies : " <<counter<<" records being processed..."<<endl;
+
+     avgRating=sumRating/counter;
+            return avgRating;
+}
+
+
 void predictRating(string dataset){
 
     cout<<endl<<"*******************   Movie Rating Prediction   ***********************"<<endl<<endl;
@@ -207,11 +268,23 @@ void predictRating(string dataset){
 
     equation eqn=computeL2(dataset,"duration");
     double duration_based_rating=new_movie.duration*eqn.coeff+eqn.y_intercept;
-    cout<< "Predicted rating from duration : "<<duration_based_rating<<endl<<endl;
+    cout<< "Predicted rating from duration only : "<<duration_based_rating<<endl<<endl;
 
     eqn=computeL2(dataset,"budget");
     double budget_based_rating=new_movie.budget*eqn.coeff+eqn.y_intercept;
-    cout<< "Predicted rating from budget : "<<budget_based_rating<<endl;
+    cout<< "Predicted rating from budget only : "<<budget_based_rating<<endl<<endl;
+
+    float age_rating_based_rating = computeAvearge(dataset,"age_rating",new_movie.age_rating);
+    cout<< "Predicted rating from age rating of " <<new_movie.age_rating<<" only : "<<age_rating_based_rating<<endl<<endl;
+
+    cout<<endl<<"New movie genre is "<<new_movie.genre<<endl;
+
+//
+//    float genre_based_rating = computeAvearge(dataset,"genre",new_movie.genre);
+//    cout<< "Predicted rating from " <<new_movie.genre<<" movies only : "<<genre_based_rating<<endl<<endl;
+
+
+
 
     system("pause");
 
