@@ -14,13 +14,14 @@
 	<structs.h>
 	<stdlib.h>
 
-1491756951 c:\users\admin\assignment\movieratingpredictor\\operation.h
+1491761728 c:\users\admin\assignment\movieratingpredictor\\operation.h
 	<iostream>
 	<string>
 	<fstream>
 	<cstdlib>
 	<structs.h>
 	<display.h>
+	<math.h>
 
 1491736363 c:\users\admin\assignment\movieratingpredictor\\structs.h
 	<iostream>
