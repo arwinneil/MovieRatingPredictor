@@ -61,7 +61,7 @@ Rush Hour 3,Action|Comedy|Crime|Thriller,91,PG-13,140000000,6.2
 A Christmas Carol,Animation|Drama|Family|Fantasy,96,PG,200000000,6.8
 Jupiter Ascending,Action|Adventure|Sci-Fi,127,PG-13,176000000,5.4
 The Legend of Tarzan,Action|Adventure|Drama|Romance,110,PG-13,180000000,6.6
-"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe ",Adventure|Family|Fantasy,150,PG,180000000,6.9
+The Chronicles of Narnia: The Lion : the Witch and the Wardrobe,Adventure|Family|Fantasy,150,PG,180000000,6.9
 X-Men: Apocalypse,Action|Adventure|Sci-Fi,144,PG-13,178000000,7.3
 The Dark Knight,Action|Crime|Drama|Thriller,152,PG-13,185000000,9
 Up,Adventure|Animation|Comedy|Family,96,PG,175000000,8.3
@@ -230,7 +230,7 @@ Knight and Day,Action|Comedy|Romance,117,PG-13,117000000,6.3
 Oblivion,Action|Adventure|Mystery|Sci-Fi,124,PG-13,120000000,7
 Star Wars: Episode III - Revenge of the Sith,Action|Adventure|Fantasy|Sci-Fi,140,PG-13,113000000,7.6
 Star Wars: Episode II - Attack of the Clones,Action|Adventure|Fantasy|Sci-Fi,142,PG,115000000,6.7
-"Monsters, Inc. ",Adventure|Animation|Comedy|Family|Fantasy,92,G,115000000,8.1
+Monsters Inc. ,Adventure|Animation|Comedy|Family|Fantasy,92,G,115000000,8.1
 The Wolverine,Action|Adventure|Sci-Fi|Thriller,138,PG-13,120000000,6.7
 Star Wars: Episode I - The Phantom Menace,Action|Adventure|Fantasy|Sci-Fi,136,PG,115000000,6.5
 The Croods,Adventure|Animation|Comedy|Family|Fantasy,98,PG,135000000,7.3
@@ -264,7 +264,7 @@ The Lord of the Rings: The Fellowship of the Ring,Action|Adventure|Drama|Fantasy
 Around the World in 80 Days,Action|Adventure|Comedy,120,PG,110000000,5.8
 Ali,Biography|Drama|Sport,165,R,107000000,6.8
 The Cat in the Hat,Adventure|Comedy|Family|Fantasy,82,PG,109000000,3.8
-"I, Robot ",Action|Mystery|Sci-Fi|Thriller,115,PG-13,120000000,7.1
+I Robot ,Action|Mystery|Sci-Fi|Thriller,115,PG-13,120000000,7.1
 Kingdom of Heaven,Action|Adventure|Drama|History|War,194,R,130000000,7.2
 Stuart Little,Adventure|Comedy|Family|Fantasy,84,PG,133000000,5.9
 The Princess and the Frog,Animation|Family|Fantasy|Musical|Romance,97,G,105000000,7.1
@@ -660,7 +660,7 @@ Fight Club,Drama,151,R,63000000,8.8
 We Are Marshall,Drama|Sport,131,PG,65000000,7.1
 Hudson Hawk,Action|Adventure|Comedy,100,R,70000000,5.7
 Lucky Numbers,Comedy|Crime,105,R,65000000,5
-"I, Frankenstein ",Action|Fantasy|Sci-Fi|Thriller,92,PG-13,65000000,5.1
+I Frankenstein ,Action|Fantasy|Sci-Fi|Thriller,92,PG-13,65000000,5.1
 Oliver Twist,Crime|Drama,130,PG-13,50000000,6.9
 Elektra,Action|Crime|Fantasy|Thriller,100,PG-13,43000000,4.8
 Sin City: A Dame to Kill For,Action|Crime|Thriller,102,R,65000000,6.5
@@ -782,7 +782,7 @@ Deadpool,Action|Adventure|Comedy|Romance|Sci-Fi,108,R,58000000,8.1
 Holy Man,Comedy|Drama,114,PG,60000000,4.9
 American Sniper,Action|Biography|Drama|History|Thriller|War,133,R,58800000,7.3
 Goosebumps,Adventure|Comedy|Family|Fantasy|Horror,103,PG,58000000,6.4
-"Sabrina, the Teenage Witch             ",Comedy|Family|Fantasy,22,TV-G,3000000,6.6
+Sabrina the Teenage Witch             ,Comedy|Family|Fantasy,22,TV-G,3000000,6.6
 Just Like Heaven,Comedy|Fantasy|Romance,95,PG-13,58000000,6.7
 The Flintstones in Viva Rock Vegas,Comedy|Family|Romance|Sci-Fi,90,PG,60000000,3.6
 Rambo III,Action|Adventure|Thriller|War,87,R,63000000,5.7
@@ -860,7 +860,7 @@ Seven Pounds,Drama|Romance,123,PG-13,55000000,7.7
 Bullet to the Head,Action|Thriller,92,R,55000000,5.7
 The Godfather: Part III,Crime|Drama,170,R,54000000,7.6
 Elizabethtown,Comedy|Drama|Romance,123,PG-13,57000000,6.4
-"You, Me and Dupree ",Comedy|Romance,110,PG-13,54000000,5.6
+You Me and Dupree ,Comedy|Romance,110,PG-13,54000000,5.6
 Superman II,Action|Adventure|Romance|Sci-Fi,116,PG,54000000,6.8
 Gigli,Comedy|Crime|Romance,121,R,54000000,2.4
 All the King's Men,Drama|Thriller,128,PG-13,55000000,6.2
@@ -886,7 +886,7 @@ Man on the Moon,Biography|Comedy|Drama,118,R,52000000,7.4
 Casino,Biography|Crime|Drama,178,R,52000000,8.2
 From Paris with Love,Action|Thriller,92,R,52000000,6.5
 Bulletproof Monk,Action|Comedy|Fantasy,104,PG-13,52000000,5.5
-"Me, Myself & Irene ",Comedy,116,R,51000000,6.5
+Me Myself & Irene ,Comedy,116,R,51000000,6.5
 Barnyard,Animation|Comedy|Family,90,PG,51000000,5.6
 The Twilight Saga: New Moon,Adventure|Drama|Fantasy|Romance,130,PG-13,50000000,4.6
 Shrek,Adventure|Animation|Comedy|Family|Fantasy,90,PG,60000000,7.9
@@ -913,7 +913,7 @@ Payback,Action|Crime|Drama|Thriller,90,R,50000000,7.1
 Congo,Action|Adventure|Mystery|Sci-Fi,109,PG-13,50000000,5
 Knowing,Drama|Mystery|Sci-Fi|Thriller,121,PG-13,50000000,6.2
 Failure to Launch,Comedy|Romance,95,PG-13,50000000,5.6
-"Crazy, Stupid, Love. ",Comedy|Drama|Romance,118,PG-13,50000000,7.4
+Crazy Stupid Love. ,Comedy|Drama|Romance,118,PG-13,50000000,7.4
 Garfield,Animation|Comedy|Family|Fantasy,80,PG,35000000,5
 Christmas with the Kranks,Comedy|Family,99,PG,60000000,5.2
 Moneyball,Biography|Drama|Sport,133,PG-13,50000000,7.6
@@ -1050,7 +1050,7 @@ A Bug's Life,Adventure|Animation|Comedy|Family|Fantasy,95,G,120000000,7.2
 From Hell,Horror|Mystery|Thriller,122,R,35000000,6.8
 The Specialist,Action|Crime|Drama|Romance|Thriller,110,R,45000000,5.4
 Tin Cup,Comedy|Drama|Romance|Sport,135,R,45000000,6.3
-"Yours, Mine and Ours ",Comedy|Family,111,Unrated,2500000,7.2
+Yours Mine and Ours ,Comedy|Family,111,Unrated,2500000,7.2
 Kicking & Screaming,Comedy|Family|Romance|Sport,95,PG,45000000,5.6
 The Hitchhiker's Guide to the Galaxy,Adventure|Comedy|Sci-Fi,109,PG,50000000,6.8
 Fat Albert,Comedy|Family|Fantasy|Romance,93,PG,26000000,4.3
@@ -1163,7 +1163,7 @@ The Last of the Mohicans,Action|Adventure|Drama|Romance|War,117,R,40000000,7.8
 Ray,Biography|Drama|Music,178,PG-13,40000000,7.7
 Sin City,Crime|Thriller,147,R,40000000,8.1
 Vantage Point,Crime|Drama|Mystery|Thriller,90,PG-13,40000000,6.6
-"I Love You, Man ",Comedy|Romance,105,R,40000000,7.1
+I Love You Man ,Comedy|Romance,105,R,40000000,7.1
 Shallow Hal,Comedy|Drama|Fantasy|Romance,114,PG-13,40000000,5.9
 JFK,Drama|History|Thriller,206,R,40000000,8
 Big Momma's House 2,Comedy|Crime,99,PG-13,40000000,4.6
@@ -1435,7 +1435,7 @@ The Walk,Adventure|Biography|Drama|Thriller,123,PG,35000000,7.4
 Warriors of Virtue,Action|Adventure|Fantasy,101,PG,35000000,4.6
 A Good Year,Comedy|Drama|Romance,117,PG-13,35000000,6.9
 Radio Flyer,Drama,114,PG-13,35000000,6.9
-"Blood In, Blood Out ",Crime|Drama,330,R,35000000,8
+Blood In Blood Out ,Crime|Drama,330,R,35000000,8
 Smilla's Sense of Snow,Action|Drama|Sci-Fi|Thriller,121,R,35000000,6.4
 Femme Fatale,Crime|Drama|Mystery|Thriller,114,R,35000000,6.3
 Lion of the Desert,Biography|Drama|History|War,156,PG,35000000,8.4
@@ -1479,7 +1479,7 @@ Stigmata,Horror,103,R,29000000,6.2
 Men of Honor,Biography|Drama,129,R,32000000,7.2
 Takers,Action|Crime|Thriller,107,PG-13,20000000,6.2
 The Big Wedding,Comedy,89,R,35000000,5.6
-"Big Mommas: Like Father, Like Son ",Action|Comedy|Crime,113,PG-13,32000000,4.4
+Big Mommas: Like Father Like Son ,Action|Comedy|Crime,113,PG-13,32000000,4.4
 Source Code,Mystery|Sci-Fi|Thriller,93,PG-13,32000000,7.5
 Alive,Adventure|Biography|Drama|Thriller,120,R,32000000,7.1
 The Number 23,Mystery|Thriller,98,R,32000000,6.4
@@ -1688,7 +1688,7 @@ No Reservations,Comedy|Drama|Romance,104,PG,28000000,6.3
 Kick-Ass,Action|Comedy,117,R,30000000,7.7
 30 Minutes or Less,Action|Comedy|Crime,83,R,28000000,6.1
 Dracula 2000,Action|Fantasy|Horror|Thriller,99,R,28000000,4.9
-"Alexander and the Terrible, Horrible, No Good, Very Bad Day ",Comedy|Family,81,PG,28000000,6.2
+Alexander and the Terrible Horrible No Good Very Bad Day ,Comedy|Family,81,PG,28000000,6.2
 Pride & Prejudice,Drama|Romance,135,PG,28000000,7.8
 Blade Runner,Sci-Fi|Thriller,117,R,28000000,8.2
 Rob Roy,Adventure|Biography,139,R,28000000,6.9
@@ -1697,7 +1697,7 @@ We Own the Night,Crime|Drama|Thriller,117,R,21000000,6.9
 Lost Souls,Drama|Horror|Thriller,97,R,28000000,4.8
 Winged Migration,Documentary,81,G,160000000,8
 Just My Luck,Comedy|Fantasy|Romance,103,PG-13,28000000,5.3
-"Mystery, Alaska ",Comedy|Drama|Sport,119,R,28000000,6.7
+Mystery Alaska ,Comedy|Drama|Sport,119,R,28000000,6.7
 The Spy Next Door,Action|Comedy|Family,94,PG,28000000,5.4
 A Simple Wish,Comedy|Family|Fantasy,89,PG,28000000,5.4
 Ghosts of Mars,Action|Horror|Sci-Fi,98,R,28000000,4.9
@@ -1710,7 +1710,7 @@ Brick Mansions,Action|Crime|Drama|Thriller,100,PG-13,28000000,5.7
 Octopussy,Action|Adventure|Thriller,131,PG,27500000,6.6
 Knocked Up,Comedy|Romance,133,R,30000000,7
 My Sister's Keeper,Drama,109,PG-13,30000000,7.4
-"Welcome Home, Roscoe Jenkins ",Comedy|Drama|Romance,114,PG-13,35000000,5.3
+Welcome Home Roscoe Jenkins ,Comedy|Drama|Romance,114,PG-13,35000000,5.3
 A Passage to India,Adventure|Drama|History,164,PG,16000000,7.4
 Notes on a Scandal,Crime|Drama|Romance|Thriller,92,R,15000000,7.4
 Rendition,Drama|Thriller,122,R,27500000,6.8
@@ -1753,7 +1753,7 @@ Flatliners,Drama|Horror|Sci-Fi|Thriller,115,R,26000000,6.6
 A Bridge Too Far,Drama|History|War,175,PG,26000000,7.4
 Red Eye,Mystery|Thriller,85,PG-13,26000000,6.5
 Final Destination 2,Horror|Thriller,90,R,26000000,6.2
-"O Brother, Where Art Thou? ",Adventure|Comedy|Crime|Music,107,PG-13,26000000,7.8
+O Brother Where Art Thou? ,Adventure|Comedy|Crime|Music,107,PG-13,26000000,7.8
 Legion,Action|Fantasy|Horror,100,R,26000000,5.2
 Pain & Gain,Comedy|Crime|Drama,129,R,26000000,6.5
 In Good Company,Comedy|Drama|Romance,109,PG-13,26000000,6.5
@@ -1794,7 +1794,7 @@ No Country for Old Men,Crime|Drama|Thriller,122,R,25000000,8.1
 Ride Along,Action|Comedy|Crime|Romance,99,PG-13,25000000,6.2
 Bridget Jones's Diary,Comedy|Drama|Romance,97,R,26000000,6.7
 Chocolat,Drama|Romance,121,PG-13,25000000,7.3
-"Legally Blonde 2: Red, White & Blonde ",Comedy,95,PG-13,45000000,4.6
+Legally Blonde 2: Red White & Blonde ,Comedy,95,PG-13,45000000,4.6
 Parental Guidance,Comedy|Family,105,PG,25000000,6.1
 No Strings Attached,Comedy|Romance,108,R,25000000,6.2
 Tombstone,Action|Biography|Drama|History|Romance|Western,134,R,25000000,7.8
@@ -1857,7 +1857,7 @@ Punch-Drunk Love,Comedy|Drama|Romance|Thriller,95,R,25000000,7.3
 EuroTrip,Comedy,93,R,25000000,6.6
 Half Past Dead,Action|Crime|Thriller,98,PG-13,13000000,4.6
 Unaccompanied Minors,Adventure|Comedy|Family|Romance,90,PG,26000000,5.1
-"Bright Lights, Big City ",Drama,107,R,25000000,5.6
+Bright Lights Big City ,Drama,107,R,25000000,5.6
 The Adventures of Pinocchio,Adventure|Family|Fantasy|Musical,90,G,25000000,5.3
 The Box,Drama|Fantasy|Mystery|Thriller,115,PG-13,16000000,5.6
 The Ruins,Horror,93,R,8000000,5.9
@@ -1928,7 +1928,7 @@ Zack and Miri Make a Porno,Comedy|Romance,101,R,24000000,6.6
 Nurse Betty,Comedy|Crime|Drama,110,R,24000000,6.3
 The Men Who Stare at Goats,Comedy|War,94,R,25000000,6.2
 Double Take,Action|Comedy|Crime|Thriller,88,PG-13,24000000,5.3
-"Girl, Interrupted ",Biography|Drama,127,R,24000000,7.3
+Girl Interrupted ,Biography|Drama,127,R,24000000,7.3
 Win a Date with Tad Hamilton!,Comedy|Romance,95,PG-13,24000000,5.6
 Muppets from Space,Adventure|Comedy|Family|Fantasy|Music|Sci-Fi,87,G,24000000,6.2
 The Wiz,Adventure|Family|Fantasy|Music|Musical,118,G,24000000,5.2
@@ -1997,7 +1997,7 @@ Summer of Sam,Crime|Drama|Romance|Thriller,142,R,22000000,6.6
 Jay and Silent Bob Strike Back,Comedy,104,R,22000000,6.9
 The Island,Action|Adventure|Romance|Sci-Fi|Thriller,136,PG-13,126000000,6.9
 The Glass House,Crime|Drama|Mystery|Thriller,106,PG-13,30000000,5.8
-"Hail, Caesar! ",Comedy|Mystery,106,PG-13,22000000,6.4
+Hail Caesar! ,Comedy|Mystery,106,PG-13,22000000,6.4
 Josie and the Pussycats,Comedy|Music,98,PG-13,22000000,5.3
 Homefront,Action|Crime|Drama|Thriller,100,R,22000000,6.5
 The Little Vampire,Adventure|Comedy|Family|Fantasy,95,PG,22000000,5.7
@@ -2200,7 +2200,7 @@ Flash of Genius,Biography|Drama,119,PG-13,20000000,7
 I'm Not There.,Biography|Drama|Music,135,R,20000000,7
 The Cold Light of Day,Action|Thriller,93,PG-13,20000000,4.9
 The Brothers Bloom,Adventure|Comedy|Drama|Romance,114,PG-13,20000000,6.9
-"Synecdoche, New York ",Comedy|Drama|Romance,124,R,21000000,7.5
+Synecdoche New York ,Comedy|Drama|Romance,124,R,21000000,7.5
 Princess Mononoke,Adventure|Animation|Fantasy,134,PG-13,2400000000,8.4
 Bon voyage,Comedy|Drama|Mystery|Romance|Thriller|War,114,PG-13,20000000,6.9
 Can't Stop the Music,Biography|Comedy|Musical,124,PG,20000000,4.5
@@ -2300,7 +2300,7 @@ Love the Coopers,Comedy,107,PG-13,17000000,5.7
 Catch That Kid,Comedy|Crime,91,PG,18000000,5.2
 Life as a House,Drama,125,R,18000000,7.5
 Steve Jobs,Biography|Drama,122,R,30000000,7.2
-"I Love You, Beth Cooper ",Comedy|Romance,102,PG-13,18000000,5.3
+I Love You Beth Cooper ,Comedy|Romance,102,PG-13,18000000,5.3
 Youth in Revolt,Comedy|Drama|Romance,90,R,18000000,6.5
 The Legend of the Lone Ranger,Action|Adventure|Western,98,PG,18000000,5
 The Tailor of Panama,Drama|Thriller,109,R,18000000,6.1
@@ -2362,7 +2362,7 @@ A Night at the Roxbury,Comedy|Music|Romance,82,PG-13,17000000,6.2
 Beastly,Drama|Fantasy|Romance,86,PG-13,17000000,5.6
 The Hills Have Eyes,Horror,108,R,15000000,6.4
 Dickie Roberts: Former Child Star,Comedy,98,PG-13,17000000,5.6
-"McFarland, USA ",Biography|Drama|Sport,129,PG,17000000,7.4
+McFarland USA ,Biography|Drama|Sport,129,PG,17000000,7.4
 Pitch Perfect,Comedy|Music|Romance,112,PG-13,17000000,7.2
 Summer Catch,Comedy|Drama|Romance|Sport,108,PG-13,34000000,4.9
 A Simple Plan,Crime|Drama|Thriller,121,R,17000000,7.5
@@ -2453,7 +2453,7 @@ Home Alone,Comedy|Family,103,PG,18000000,7.5
 3 Men and a Baby,Comedy|Drama|Family,102,PG,11000000,5.9
 Tootsie,Comedy|Drama|Romance,116,PG,22000000,7.4
 Top Gun,Action|Drama|Romance,110,PG,15000000,6.9
-"Crouching Tiger, Hidden Dragon ",Action|Drama|Romance,120,PG-13,15000000,7.9
+Crouching Tiger Hidden Dragon ,Action|Drama|Romance,120,PG-13,15000000,7.9
 American Beauty,Drama,122,R,15000000,8.4
 The King's Speech,Biography|Drama|History|Romance,118,R,15000000,8
 Twins,Comedy|Crime,107,PG,15000000,6
@@ -2623,7 +2623,7 @@ Our Family Wedding,Comedy|Romance,103,PG-13,14000000,4.9
 Dead Man on Campus,Comedy,96,R,14000000,6
 Tea with Mussolini,Comedy|Drama|War,117,PG,12000000,6.9
 Thinner,Fantasy|Horror,93,R,8500000,5.7
-"New York, New York ",Drama|Music|Musical|Romance,136,PG,14000000,6.7
+New York New York ,Drama|Music|Musical|Romance,136,PG,14000000,6.7
 Crooklyn,Comedy|Drama,115,PG-13,14000000,6.9
 Jason X,Action|Horror|Sci-Fi|Thriller,85,R,11000000,4.4
 Big Fat Liar,Adventure|Comedy|Family,88,PG,15000000,5.4
@@ -2652,7 +2652,7 @@ Quills,Biography|Drama,124,R,13500000,7.4
 Seven Psychopaths,Comedy|Crime,110,R,15000000,7.2
 Downfall,Biography|Drama|History|War,178,R,13500000,8.3
 The Sea Inside,Biography|Drama|Romance,125,PG-13,10000000,8.1
-"Good Morning, Vietnam ",Biography|Comedy|Drama|War,121,R,13000000,7.3
+Good Morning Vietnam ,Biography|Comedy|Drama|War,121,R,13000000,7.3
 The Last Godfather,Comedy,100,PG-13,13400000,3.6
 Justin Bieber: Never Say Never,Documentary|Music,115,G,13000000,1.6
 Black Swan,Drama|Thriller,108,R,13000000,8
@@ -2661,7 +2661,7 @@ The Godfather: Part II,Crime|Drama,220,R,13000000,9
 Save the Last Dance,Drama|Music|Romance,112,PG-13,13000000,6.1
 A Nightmare on Elm Street 4: The Dream Master,Fantasy|Horror|Thriller,99,R,7000000,5.7
 Miracles from Heaven,Drama,109,PG,13000000,6.8
-"Dude, Where's My Car? ",Comedy|Mystery,83,PG-13,13000000,5.5
+Dude Where's My Car? ,Comedy|Mystery,83,PG-13,13000000,5.5
 Young Guns,Action|Crime|Drama|Thriller|Western,107,R,13000000,6.8
 St. Vincent,Comedy|Drama,102,PG-13,13000000,7.3
 About Last Night,Comedy|Romance,100,R,12500000,6.1
@@ -2695,7 +2695,7 @@ Light It Up,Drama|Thriller,99,R,13000000,6
 Bubble Boy,Adventure|Comedy|Romance|Sci-Fi,84,PG-13,13000000,5.6
 Birthday Girl,Comedy|Crime|Thriller,93,R,13000000,6.1
 21 & Over,Comedy,93,R,13000000,5.9
-"Paris, je t'aime ",Comedy|Drama|Romance,120,R,13000000,7.3
+Paris je t'aime ,Comedy|Drama|Romance,120,R,13000000,7.3
 Resurrecting the Champ,Drama|Sport,112,PG-13,13000000,6.8
 Admission,Comedy|Drama|Romance,107,PG-13,13000000,5.7
 The Widow of Saint-Pierre,Drama|Romance,112,R,100000000,7.3
@@ -2982,7 +2982,7 @@ Black or White,Drama,121,PG-13,9000000,6.6
 On the Line,Comedy|Family|Romance,85,PG,16000000,4.1
 Rescue Dawn,Adventure|Biography|Drama|War,120,PG-13,10000000,7.3
 Danny Collins,Comedy|Drama|Music,106,R,10000000,7.1
-"Jeff, Who Lives at Home ",Comedy|Drama,83,R,10000000,6.5
+Jeff Who Lives at Home ,Comedy|Drama,83,R,10000000,6.5
 I Am Love,Drama|Romance,120,R,10000000,7
 Atlas Shrugged II: The Strike,Drama|Mystery|Sci-Fi,111,PG-13,10000000,5.5
 Romeo Is Bleeding,Action|Crime|Drama|Thriller,100,R,11500000,6.6
@@ -3009,7 +3009,7 @@ Owning Mahowny,Crime|Drama|Thriller,104,R,10000000,7.2
 The Brothers Solomon,Comedy,93,R,10000000,5.3
 My Blueberry Nights,Drama|Romance,95,PG-13,10000000,6.7
 Swept Away,Comedy|Romance,89,R,10000000,3.6
-"War, Inc. ",Action|Comedy|Thriller,107,R,10000000,5.7
+War Inc. ,Action|Comedy|Thriller,107,R,10000000,5.7
 Shaolin Soccer,Action|Comedy|Sport,85,PG,10000000,7.3
 The Brown Bunny,Drama,93,Not Rated,10000000,5
 Rosewater,Biography|Drama,103,R,5000000,6.6
@@ -3018,7 +3018,7 @@ High Heels and Low Lifes,Action|Comedy|Drama,86,R,10000000,6.2
 Severance,Comedy|Horror|Thriller,90,R,5000000,6.6
 Edmond,Drama|Thriller,82,R,10000000,6.3
 Police Academy: Mission to Moscow,Comedy|Crime,83,PG,6200000,3.3
-"Cinco de Mayo, La Batalla ",Drama|History|War,125,R,10000000,6.2
+Cinco de Mayo La Batalla ,Drama|History|War,125,R,10000000,6.2
 Elsa & Fred,Comedy|Drama|Romance,97,PG-13,10000000,6.5
 An Alan Smithee Film: Burn Hollywood Burn,Comedy,86,R,10000000,3.5
 The Open Road,Comedy|Drama,91,PG-13,10000000,5.5
@@ -3036,7 +3036,7 @@ It's a Wonderful Afterlife,Comedy|Drama|Horror|Romance,100,PG-13,10000000,5.4
 The Devil's Tomb,Action|Horror|Sci-Fi,90,R,10000000,3.8
 Partition,Drama|Romance,116,R,10000000,7
 Good Intentions,Comedy,84,PG-13,10000000,5.2
-"The Good, the Bad, the Weird ",Action|Adventure|Comedy|Western,135,R,10000000,7.3
+The Good the Bad the Weird ,Action|Adventure|Comedy|Western,135,R,10000000,7.3
 Nurse 3D,Horror|Thriller,84,R,10000000,4.6
 The Lost City,Drama|Romance,144,R,9600000,6.7
 Next Friday,Comedy,98,R,9500000,6.1
@@ -3046,7 +3046,7 @@ Plastic,Action|Comedy|Crime|Drama,102,R,10000000,6
 Amour,Drama|Romance,127,PG-13,8900000,7.9
 Poltergeist III,Horror|Thriller,98,PG-13,10500000,4.5
 Re-Kill,Action|Horror,88,R,9500000,5.1
-"It's a Mad, Mad, Mad, Mad World ",Action|Adventure|Comedy|Crime,197,Approved,9400000,7.6
+It's a Mad Mad Mad Mad World ,Action|Adventure|Comedy|Crime,197,Approved,9400000,7.6
 Heavy Metal,Adventure|Animation|Fantasy|Horror|Sci-Fi,90,R,9300000,6.7
 Richard III,Drama|War,104,R,6000000,7.5
 Into the Grizzly Maze,Action|Horror|Thriller,94,R,10000000,5.3
@@ -3209,7 +3209,7 @@ Live and Let Die,Action|Adventure|Thriller,121,PG,7000000,6.8
 My Dog Skip,Drama|Family|Sport,95,PG,5000000,7
 Jumping the Broom,Comedy|Drama,112,PG-13,6600000,5.7
 The Great Gatsby,Drama|Romance,143,PG-13,105000000,7.3
-"Good Night, and Good Luck. ",Biography|Drama|History,93,PG,7500000,7.5
+Good Night and Good Luck. ,Biography|Drama|History,93,PG,7500000,7.5
 Capote,Biography|Crime|Drama,110,R,7000000,7.4
 Desperado,Action|Crime|Thriller,104,R,7000000,7.2
 The Claim,Drama|Romance|Western,115,R,20000000,6.5
@@ -3269,7 +3269,7 @@ The Chumscrubber,Comedy|Drama,108,R,6800000,7
 Shade,Crime|Thriller,101,R,6800000,6.4
 House at the End of the Street,Drama|Horror|Thriller,101,PG-13,6900000,5.6
 Incendies,Drama|Mystery|War,139,R,6800000,8.2
-"Remember Me, My Love ",Comedy|Drama|Romance,125,R,5000000,6.5
+Remember Me My Love ,Comedy|Drama|Romance,125,R,5000000,6.5
 Elite Squad,Action|Crime|Drama|Thriller,115,R,4000000,8.1
 Annabelle,Horror|Mystery,99,R,6500000,5.4
 Bran Nue Dae,Comedy|Drama|Musical,88,PG-13,6500000,6.3
@@ -3346,7 +3346,7 @@ Snow Flower and the Secret Fan,Drama|History,104,PG-13,6000000,6.1
 Come Early Morning,Drama|Romance,97,R,6000000,6.2
 Lucky Break,Comedy|Crime|Romance,107,PG-13,6000000,6.2
 Julia,Drama,117,PG,7840000,7.4
-"Surfer, Dude ",Comedy,85,R,6000000,4.7
+Surfer Dude ,Comedy,85,R,6000000,4.7
 11:14,Comedy|Crime|Drama,85,R,6000000,7.2
 Men of War,Action|Drama|Thriller,76,R,8600000,5.8
 Deadfall,Crime|Drama|Thriller,95,R,12000000,6.3
@@ -3401,7 +3401,7 @@ The Robe,Drama|History,135,Unrated,5000000,6.8
 The Return of the Pink Panther,Comedy|Crime|Mystery,113,G,5000000,7.1
 Freddy's Dead: The Final Nightmare,Comedy|Fantasy|Horror|Thriller,93,R,8500000,4.9
 Monster,Biography|Crime|Drama|Thriller,109,R,4500000,7.3
-"20,000 Leagues Under the Sea ",Adventure|Drama|Family|Fantasy|Sci-Fi,127,Approved,5000000,7.2
+20000 Leagues Under the Sea ,Adventure|Drama|Family|Fantasy|Sci-Fi,127,Approved,5000000,7.2
 Paranormal Activity: The Marked Ones,Fantasy|Horror|Thriller,101,R,5000000,5
 The Elephant Man,Biography|Drama,124,PG,5000000,8.2
 Dallas Buyers Club,Biography|Drama,117,R,5000000,8
@@ -3419,7 +3419,7 @@ Mommie Dearest,Biography|Drama,129,R,5000000,6.7
 Our Idiot Brother,Comedy|Drama,90,R,5000000,6.4
 The Players Club,Comedy|Drama,104,R,4500000,5.6
 O,Drama|Romance|Thriller,95,R,5000000,6.2
-"As Above, So Below ",Horror|Mystery|Thriller,93,R,5000000,6.1
+As Above So Below ,Horror|Mystery|Thriller,93,R,5000000,6.1
 Addicted,Drama|Thriller,106,R,5000000,5.2
 Eve's Bayou,Drama,109,R,6000000,7.3
 Still Alice,Drama,101,PG-13,5000000,7.5
@@ -3475,7 +3475,7 @@ Atlas Shrugged: Who Is John Galt?,Drama|Mystery|Sci-Fi,99,PG-13,5000000,4.4
 Bottle Rocket,Comedy|Crime|Drama,91,R,7000000,7.1
 Albino Alligator,Crime|Drama|Thriller,97,R,5000000,6.1
 Out of the Blue,Drama,94,R,2200000,7.2
-"Lovely, Still ",Drama|Romance,90,PG,5000000,7.3
+Lovely Still ,Drama|Romance,90,PG,5000000,7.3
 Tycoon,Adventure|Drama|Romance,95,Approved,3209000,6.2
 Desert Blue,Drama,90,R,2000000,6.2
 Decoys,Comedy|Horror|Sci-Fi,95,R,5000000,4.6
@@ -3587,7 +3587,7 @@ Shooting Fish,Comedy|Crime|Romance,99,PG,3000000,6.6
 Prison,Crime|Drama|Horror|Thriller,102,R,1300000,5.9
 Psycho Beach Party,Comedy|Horror|Mystery,85,Unrated,1500000,6.3
 The Big Tease,Comedy,86,R,4000000,6.3
-"Buen Día, Ramón ",Drama,120,PG-13,4000000,7.7
+Buen Día Ramón ,Drama,120,PG-13,4000000,7.7
 Trust,Crime|Drama|Thriller,106,R,9500000,7
 An Everlasting Piece,Comedy,103,R,14000000,6.3
 Among Giants,Comedy|Romance,93,R,2500000,5.9
@@ -3648,7 +3648,7 @@ Winter Passing,Comedy|Drama,98,R,3500000,6.4
 D.E.B.S.,Action|Comedy|Romance,91,PG-13,3500000,5.3
 The Masked Saint,Action|Biography|Crime|Drama|Family|Fantasy,105,PG-13,3500000,4.7
 Taxman,Action|Comedy|Crime|Thriller,104,R,1000000,5.5
-"Batman: The Dark Knight Returns, Part 2 ",Action|Animation|Crime|Sci-Fi|Thriller,148,PG-13,3500000,8.4
+Batman: The Dark Knight Returns Part 2 ,Action|Animation|Crime|Sci-Fi|Thriller,148,PG-13,3500000,8.4
 In the Name of the King: The Last Job,Action|Adventure|Fantasy|Thriller,86,R,3500000,3.3
 Wicked Blood,Action|Crime|Drama|Thriller,92,Not Rated,3500000,5.4
 Lords of London,Crime|Mystery|Thriller,90,R,3440000,3.1
@@ -3853,7 +3853,7 @@ Witchboard,Horror|Mystery|Thriller,98,R,2000000,5.7
 Hamlet,Drama,150,PG-13,18000000,7.8
 Shortbus,Comedy|Drama|Romance,101,Unrated,2000000,6.5
 Waltz with Bashir,Animation|Biography|Documentary|Drama|History|War,90,R,1500000,8
-"The Book of Mormon Movie, Volume 1: The Journey ",Adventure,120,PG-13,2000000,3.3
+The Book of Mormon Movie Volume 1: The Journey ,Adventure,120,PG-13,2000000,3.3
 The Diary of a Teenage Girl,Drama|Romance,102,R,2000000,6.9
 In the Shadow of the Moon,Documentary|History,100,PG,2000000,8.1
 Inside Deep Throat,Biography|Documentary|History,89,NC-17,2000000,6.8
@@ -3913,7 +3913,7 @@ Living Dark: The Story of Ted the Caver,Horror,112,PG-13,1750000,6.3
 Conquest of the Planet of the Apes,Action|Sci-Fi,88,PG,1700000,6.1
 In the Bedroom,Crime|Drama,138,R,1700000,7.5
 I Spit on Your Grave,Horror|Thriller,105,R,2000000,6.3
-"Happy, Texas ",Comedy|Crime|Romance,98,PG-13,1700000,6.3
+Happy Texas ,Comedy|Crime|Romance,98,PG-13,1700000,6.3
 My Summer of Love,Drama|Romance,86,R,1700000,6.8
 The Lunchbox,Drama|Romance,104,PG,1000000,7.8
 Yes,Drama|Romance,100,R,1000000,6.9
@@ -3970,7 +3970,7 @@ Incident at Loch Ness,Adventure|Comedy|Horror,94,PG-13,1400000,6.6
 The Dog Lover,Drama,101,PG,2000000,4.8
 House at the End of the Drive,Horror|Thriller,91,R,1400000,6.9
 Batman: The Movie,Adventure|Comedy|Family,105,Approved,1377800,6.5
-"Lock, Stock and Two Smoking Barrels ",Comedy|Crime,120,R,960000,8.2
+Lock Stock and Two Smoking Barrels ,Comedy|Crime,120,R,960000,8.2
 The Celebration,Drama,105,R,1300000,8.1
 Trees Lounge,Comedy|Drama,95,R,1300000,7.2
 Journey from the Fall,Drama,135,R,1592000,7.4
@@ -3990,7 +3990,7 @@ Filly Brown,Drama|Music,80,R,427000,5.7
 The Lion of Judah,Animation,87,PG,15000000,3.7
 Niagara,Crime|Film-Noir|Thriller,92,Approved,1250000,7.1
 How Green Was My Valley,Drama|Family,118,Approved,1250000,7.8
-"Sex, Lies, and Videotape ",Drama,100,R,1200000,7.2
+Sex Lies and Videotape ,Drama,100,R,1200000,7.2
 Saw,Horror|Mystery|Thriller,103,R,1200000,7.7
 Super Troopers,Comedy|Crime|Mystery,100,R,1200000,7.1
 The Day the Earth Stood Still,Drama|Sci-Fi|Thriller,104,PG-13,80000000,5.5
@@ -4001,11 +4001,11 @@ Lucky Number Slevin,Crime|Drama|Mystery|Thriller,110,R,27000000,7.8
 But I'm a Cheerleader,Comedy|Drama,85,R,1200000,6.6
 Home Run,Drama|Sport,113,PG-13,1200000,6
 Reservoir Dogs,Crime|Drama|Thriller,99,R,1200000,8.4
-"The Good, the Bad and the Ugly ",Western,142,Approved,1200000,8.9
+The Good the Bad and the Ugly ,Western,142,Approved,1200000,8.9
 The Second Mother,Comedy|Drama,112,R,4000000,7.9
 Blue Like Jazz,Comedy|Drama,108,PG-13,1200000,6
 Down and Out with the Dolls,Comedy|Music,88,R,1200000,6.1
-"Pink Ribbons, Inc. ",Documentary,97,Not Rated,1200000,7.4
+Pink Ribbons Inc. ,Documentary,97,Not Rated,1200000,7.4
 The Charge of the Light Brigade,Action|Adventure|Romance|War,100,Approved,1200000,7.1
 Below Zero,Thriller,99,R,1200000,4.5
 Crowsnest,Action|Horror|Mystery|Thriller,84,R,1200000,3.8
@@ -4100,7 +4100,7 @@ Banshee Chapter,Horror|Thriller,87,R,950000,5.5
 Ask Me Anything,Drama,100,Not Rated,950000,6
 On the Waterfront,Crime|Drama|Romance,108,Not Rated,910000,8.2
 L!fe Happens,Comedy,100,R,930000,5.7
-"4 Months, 3 Weeks and 2 Days ",Drama,113,Not Rated,590000,7.9
+4 Months 3 Weeks and 2 Days ,Drama,113,Not Rated,590000,7.9
 Hard Candy,Crime|Drama|Thriller,104,R,950000,7.1
 The Quiet,Drama|Thriller,91,R,900000,6.4
 Fruitvale Station,Biography|Drama|Romance,85,R,900000,7.5
@@ -4109,7 +4109,7 @@ The Hammer,Comedy|Romance|Sport,88,R,850000,7.3
 Snitch,Action|Drama|Thriller,112,PG-13,15000000,6.5
 Latter Days,Comedy|Drama|Romance,107,R,850000,7.2
 1982,Drama,90,R,1000000,7.1
-"For a Good Time, Call... ",Comedy,88,R,850000,6
+For a Good Time Call... ,Comedy,88,R,850000,6
 Time Changer,Drama|Fantasy|Sci-Fi,95,PG,825000,5.6
 London to Brighton,Crime|Drama|Thriller,85,R,500000,7
 A Separation,Drama|Mystery,123,PG-13,500000,8.4
@@ -4231,7 +4231,7 @@ Wendy and Lucy,Drama,80,R,200000,7.1
 3 Backyards,Drama,88,R,300000,5.2
 Pierrot le Fou,Crime|Drama|Romance,110,Not Rated,300000,7.7
 Nothing But a Man,Drama|Romance,95,Not Rated,160000,8.1
-"First Love, Last Rites ",Drama|Romance,94,R,300000,5.5
+First Love Last Rites ,Drama|Romance,94,R,300000,5.5
 Fighting Tommy Riley,Drama|Sport,109,R,200000,6.6
 Royal Kill,Action|Thriller,90,PG-13,350000,3.2
 Across the Universe,Drama|Fantasy|Musical|Romance,133,PG-13,45000000,7.4
@@ -4265,8 +4265,8 @@ The Big Parade,Drama|Romance|War,151,Not Rated,245000,8.3
 Burn,Documentary,86,Not Rated,225000,7.5
 Urbania,Drama,106,R,225000,7
 The Stewardesses,Comedy|Drama,93,X,100000,4
-"The Beast from 20,000 Fathoms ",Adventure|Horror|Sci-Fi,80,Approved,210000,6.7
-"20,000 Leagues Under the Sea ",Adventure|Drama|Family|Fantasy|Sci-Fi,127,Approved,5000000,7.2
+The Beast from 20000 Fathoms ,Adventure|Horror|Sci-Fi,80,Approved,210000,6.7
+20000 Leagues Under the Sea ,Adventure|Drama|Family|Fantasy|Sci-Fi,127,Approved,5000000,7.2
 Mad Max,Action|Adventure|Sci-Fi|Thriller,93,R,200000,7
 Swingers,Comedy|Drama,96,R,200000,7.4
 A Fistful of Dollars,Action|Drama|Western,99,R,200000,8
@@ -4303,7 +4303,7 @@ Eraserhead,Fantasy|Horror|Sci-Fi,89,Unrated,20000,7.4
 Hollywood Shuffle,Comedy,81,R,100000,7
 Penitentiary,Crime|Drama|Sport,99,R,100000,5.8
 The Lost Skeleton of Cadavra,Comedy|Horror|Sci-Fi,90,PG,40000,7
-"Dude, Where's My Dog?! ",Family,82,PG,20000,3.2
+Dude Where's My Dog?! ,Family,82,PG,20000,3.2
 Cheap Thrills,Comedy|Crime|Drama|Horror|Thriller,88,Not Rated,200000,6.8
 Indie Game: The Movie,Documentary,103,Not Rated,100000,7.7
 Closure,Thriller,80,R,1800000,5.6
