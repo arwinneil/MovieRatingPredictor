@@ -13,7 +13,8 @@ int main(){
 
     data_path=getDataPath();     //Gets Dataset path
 
-    do{displayMenu();             //Displays main menu until user choses to exit
+    do{
+        displayMenu();             //Displays main menu until user choses to exit
 
         string choice =getMenuInput();
         if(choice=="1"){
@@ -31,7 +32,6 @@ int main(){
         }else{
 
             cout<<endl<<"Choice Invalid"<<endl; //error message if input invalid
-
         }
 
     }while(true);

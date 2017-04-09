@@ -18,27 +18,22 @@ void displaySplash (){
 }
 
 void displayMenu(){
-
     //function displays the main menu
-
     system("CLS");
     displaySplash();
 
     cout<<"1. PREDICT AN OUTPUT"<<endl;
     cout<<"2. UPDATE DATASET"<<endl<<endl;
-
     cout<<"0. EXIT"<<endl;
 }
 
 void displayMovie(movie new_movie){
-
         cout<<endl<<new_movie.title<<endl;
         cout<<new_movie.genre<<endl;
         cout<<new_movie.duration<<endl;
         cout<<new_movie.age_rating<<endl;
         cout<<new_movie.budget<<endl;
         cout<<new_movie.rating<<endl;
-
 }
 
 

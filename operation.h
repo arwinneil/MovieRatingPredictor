@@ -21,7 +21,6 @@ string getDataPath(){
     bool valid=0;
 
     do{
-
         cout<<"Please enter CSV dataset path to start : ";
         getline(cin,path);
 
@@ -65,13 +64,10 @@ string getDataPath(){
                              }
                     }
         }
-
-
-
     }while(valid==0);
 
-        cout<<"File loaded successfully. ";
-        system("pause");
+    cout<<"File loaded successfully. ";
+    system("pause");
 
     return path;
 }
@@ -83,7 +79,6 @@ string getMenuInput(){
     bool valid=0; //for checking if user input is valid;
 
     do{
-
         cout<<endl<<"Please enter 1,2 or 0 :";
         cin>>choice;
 
@@ -92,7 +87,6 @@ string getMenuInput(){
         }else{
         cout<<endl<<"Invalid choice!";
         }
-
     }while(valid==0);
 
     return choice;
@@ -100,7 +94,7 @@ string getMenuInput(){
 
 movie getMovieDetails(){
     //function gets movie details from user and returns it as movie
-     movie new_movie;
+    movie new_movie;
 
     cout<<endl<<"*******************   Movie Dataset Update   ***********************"<<endl<<endl;
 
@@ -112,7 +106,6 @@ movie getMovieDetails(){
     cout<<"Enter movie rating (0.0-10.0) : ";cin>>new_movie.rating;
 
     return new_movie;
-
 }
 
 movie toMovie(string line){
@@ -149,8 +142,7 @@ int computeL2(string dataset){
     ifstream file(dataset); //Opening file input
     string buffer;
 
-      while (getline(file,buffer)){
-
+    while (getline(file,buffer)){
         movie movie_buffer=toMovie(buffer);
        // cout<<movie_buffer.title<<endl;
 
@@ -165,7 +157,6 @@ system("pause");
 void addNewData(string path){
     //gets movie details
     //appends details to dataset
-
     movie new_movie=getMovieDetails(); //retrieve movie details from getMovieDetail functions
 
     ofstream file(path,ios::app); //Opening file for append
