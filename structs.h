@@ -5,8 +5,7 @@
 #include<fstream>
 using namespace std;
 
-struct movie    //Structure for movie
-{
+struct movie{   //Structure for movie
     string title;
     string genre;
     int duration;
@@ -15,14 +14,12 @@ struct movie    //Structure for movie
     float rating;
 } ;
 
-struct point   //Structure representing two points on a graph
-{
+struct point{   //Structure representing two points on a graph
     double x;
-    float y;
+    f y;
 };
 
-struct equation   //Structure representing two points on a graph
-{
+struct equation{   //Structure representing two points on a graph
     double coeff;
     double y_intercept;
 };

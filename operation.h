@@ -3,9 +3,7 @@
 #include <iostream>
 #include <string>
 #include<fstream>
-#include<cmath>
 #include<cstdlib>
-#include <cstddef>
 #include<structs.h>
 #include<display.h>
 
@@ -137,15 +135,10 @@ equation computeL2(string dataset,string independent_var){
     double SUMy = 0;     //sum of y values
     double SUMxy = 0;    //sum of x * y
     double SUMxx = 0;    //sum of x^2
-    double SUMres = 0;   //sum of squared residue
-    double res = 0;      //residue squared
     double slope = 0;    //slope of regression line
     double y_intercept = 0; //y intercept of regression line
-    double SUM_Yres = 0; //sum of squared of the discrepancies
     double AVGy = 0;     //mean of y
     double AVGx = 0;     //mean of x
-    double Yres = 0;     //squared of the discrepancies
-    double Rsqr = 0;     //coefficient of determination
 
     point Point;
 
@@ -159,8 +152,6 @@ equation computeL2(string dataset,string independent_var){
 
     while (getline(file,buffer)){
             movie movie_buffer=toMovie(buffer);
-
-
 
             Point.y=movie_buffer.rating;
             if (independent_var=="duration"){
@@ -183,26 +174,20 @@ equation computeL2(string dataset,string independent_var){
     }
     file.close();
 
-
-
     cout<<endl<<"Least-Square Linear Regression of "<<independent_var<<" : " <<dataSize<<" records being processed..."<<endl;
 
         //calculate the means of x and y
-        AVGy = SUMy / dataSize;
-        AVGx = SUMx / dataSize;
-
-
+    AVGy = SUMy / dataSize;
+    AVGx = SUMx / dataSize;
 
     cout<<"Average "<<independent_var<<" is "<<SUMx<<endl;
     cout<<"Average rating is "<<AVGy<<endl;
 
-     //slope or a1
-   slope = (dataSize * SUMxy - SUMx * SUMy) / (dataSize * SUMxx - SUMx*SUMx);
+    //slope or a1
+    slope = (dataSize * SUMxy - SUMx * SUMy) / (dataSize * SUMxx - SUMx*SUMx);
 
-   //y itercept or a0
-   y_intercept = AVGy - slope * AVGx;
-
-
+    //y intercept or a0
+    y_intercept = AVGy - slope * AVGx;
 
     cout<< ("The linear equation that best fits the given data:\n");
     cout<< "       y = "<<slope<<"x + "<<y_intercept<<endl;
@@ -210,9 +195,8 @@ equation computeL2(string dataset,string independent_var){
     equation eqn;
     eqn.coeff=slope;
     eqn.y_intercept=y_intercept;
+
     return eqn;
-
-
 }
 
 void predictRating(string dataset){
@@ -228,7 +212,6 @@ void predictRating(string dataset){
     eqn=computeL2(dataset,"budget");
     double budget_based_rating=new_movie.budget*eqn.coeff+eqn.y_intercept;
     cout<< "Predicted rating from budget : "<<budget_based_rating<<endl;
-
 
     system("pause");
 

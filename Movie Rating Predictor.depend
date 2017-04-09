@@ -13,13 +13,11 @@
 	<fstream>
 	<stdlib.h>
 
-1491734156 c:\users\admin\assignment\movieratingpredictor\\operation.h
+1491734691 c:\users\admin\assignment\movieratingpredictor\\operation.h
 	<iostream>
 	<string>
 	<fstream>
-	<cmath>
 	<cstdlib>
-	<cstddef>
 	<structs.h>
 	<display.h>
 
