@@ -8,12 +8,13 @@
 
 1491594216 c:\users\admin\assignment\movieratingpredictor\\userinput.h
 
-1491720499 c:\users\admin\assignment\movieratingpredictor\\display.h
+1491743105 c:\users\admin\assignment\movieratingpredictor\\display.h
 	<iostream>
 	<fstream>
+	<structs.h>
 	<stdlib.h>
 
-1491734691 c:\users\admin\assignment\movieratingpredictor\\operation.h
+1491744702 c:\users\admin\assignment\movieratingpredictor\\operation.h
 	<iostream>
 	<string>
 	<fstream>
@@ -21,7 +22,12 @@
 	<structs.h>
 	<display.h>
 
-1491732070 c:\users\admin\assignment\movieratingpredictor\\structs.h
+1491736363 c:\users\admin\assignment\movieratingpredictor\\structs.h
+	<iostream>
+	<string>
+	<fstream>
+
+1491736363 source:c:\users\admin\assignment\movieratingpredictor\structs.h
 	<iostream>
 	<string>
 	<fstream>
