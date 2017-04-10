@@ -127,8 +127,6 @@ movie toMovie(string line){
 
         new_movie.rating= strtof((line.substr(0,(line.find(",")))).c_str(),0); //Reads rating up to first comma
 
-
-
         return new_movie;
 }
 
@@ -226,7 +224,7 @@ float computeAvearge(string dataset,string var,string val){
             }else{
                         do{
 
-                        string current_genre;
+                            string current_genre;
 
                             if((movie_buffer.genre.length()!=0)&&((movie_buffer.genre.find("|"))!=movie_buffer.genre.npos)){
                                     current_genre= movie_buffer.genre.substr(0,(movie_buffer.genre.find("|"))); //Reads genre up to first |
@@ -248,14 +246,13 @@ float computeAvearge(string dataset,string var,string val){
                         break;
                         }
 
-
-
                     }while(movie_buffer.genre.length()!=0);
-
             }
     }
 
-    cout<<endl<<"Average rating of "<<val<<" rated movies : " <<counter<<" records being processed..."<<endl;
+    //counter 0 exeption
+
+    cout<<endl<<"Average rating of "<<val<<" movies : " <<counter<<" records being processed..."<<endl;
 
     avgRating=sumRating/counter;
     return avgRating;
@@ -267,38 +264,29 @@ void predictRating(string dataset){
     cout<<"*                      Movie Rating Prediction                        *"<<endl;
     cout<<"***********************************************************************"<<endl<<endl;
 
-
-
     movie new_movie=getMovieDetails();
 
     equation eqn=computeL2(dataset,"duration");
     double duration_based_rating=new_movie.duration*eqn.coeff+eqn.y_intercept;
-    cout<< "Predicted rating from duration only : "<<duration_based_rating<<endl<<endl;
+    cout<< "Predicted rating from duration only : "<<duration_based_rating<<endl;
 
     eqn=computeL2(dataset,"budget");
     double budget_based_rating=new_movie.budget*eqn.coeff+eqn.y_intercept;
-    cout<< "Predicted rating from budget only : "<<budget_based_rating<<endl<<endl;
+    cout<< "Predicted rating from budget only : "<<budget_based_rating<<endl;
 
    float age_rating_based_rating = computeAvearge(dataset,"age_rating",new_movie.age_rating);
-    cout<< "Predicted rating from age rating of " <<new_movie.age_rating<<" only : "<<age_rating_based_rating<<endl<<endl;
+    cout<< "Predicted rating from age rating of " <<new_movie.age_rating<<" only : "<<age_rating_based_rating<<endl;
 
     float genre_based_rating = computeAvearge(dataset,"genre",new_movie.genre);
-    cout<< "Predicted rating from " <<new_movie.genre<<" movies only : "<<genre_based_rating<<endl<<endl;
+    cout<< "Predicted rating from " <<new_movie.genre<<" movies only : "<<genre_based_rating<<endl;
 
-    cout<<endl<<"*******************          Results        ***************************"<<endl<<endl;
+    cout<<endl<<"*******************          Results        ***************************"<<endl;
 
     cout<<"Rating of movie, based on average on above analysis is: ";
 
     printf("%.1f\n", ((duration_based_rating+budget_based_rating+age_rating_based_rating+genre_based_rating)/4));
 
     system("pause");
-
-
-
-
-
-
-
 }
 
 void addNewData(string path){
