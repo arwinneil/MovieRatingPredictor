@@ -19,11 +19,17 @@ int main(){
         string choice =getMenuInput();
         if(choice=="1"){
 
+            system("CLS");
             predictRating(data_path);   //Calls the the rating prediction function
 
         }else if (choice=="2"){
 
              addNewData(data_path);     //calls the function which will update dataset
+
+        }else if (choice=="3"){
+
+
+             data_path=getDataPath();     //Gets Dataset path
 
         }else if (choice=="0"){
 
