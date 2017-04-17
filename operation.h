@@ -19,9 +19,10 @@ string getDataPath(){
     string path;
     bool valid=0;
 
+
     do{
-        cout<<"Please enter CSV dataset path to start : ";
-        getline(cin,path);
+        cout<<"Please enter CSV dataset path : ";
+        cin>>path;
 
         if (path.size()<4){
 
@@ -53,7 +54,7 @@ string getDataPath(){
 
                              }else{
 
-                              cout<<"Internal file structure invalidate, CSV format is movie_title,genres,duration,content_rating,budget,imdb_score"<<endl<<endl;
+                              cout<<"Internal file structure invalid, CSV format is movie_title,genres,duration,content_rating,budget,imdb_score"<<endl<<endl;
                               valid=0;
                              }
 
@@ -82,7 +83,7 @@ string getMenuInput(){
         cout<<endl<<"Please enter 1,2 or 0 :";
         cin>>choice;
 
-        if((choice=="1")|(choice=="2")|(choice=="0")){
+        if((choice=="1")|(choice=="2")|(choice=="3")|(choice=="0")){
             valid=1;
         }else{
         cout<<endl<<"Invalid choice!";
@@ -250,7 +251,12 @@ float computeAvearge(string dataset,string var,string val){
             }
     }
 
-    //counter 0 exeption
+    if (counter==0){
+
+        cout<<endl<<"NO RECORDS CONTAINING "<<val<<" HAS BEEN FOUND IN DATASET! "<<endl;
+        cout<<"Please consider using another "<<var<<" or change your dataset"<<endl;
+         return 0;
+    }
 
     cout<<endl<<"Average rating of "<<val<<" movies : " <<counter<<" records being processed..."<<endl;
 
@@ -268,11 +274,16 @@ void predictRating(string dataset){
 
     equation eqn=computeL2(dataset,"duration");
     double duration_based_rating=new_movie.duration*eqn.coeff+eqn.y_intercept;
+    if (duration_based_rating>10)
+        duration_based_rating=10;
     cout<< "Predicted rating from duration only : "<<duration_based_rating<<endl;
 
     eqn=computeL2(dataset,"budget");
     double budget_based_rating=new_movie.budget*eqn.coeff+eqn.y_intercept;
+    if (budget_based_rating>10)
+        budget_based_rating=10;
     cout<< "Predicted rating from budget only : "<<budget_based_rating<<endl;
+
 
    float age_rating_based_rating = computeAvearge(dataset,"age_rating",new_movie.age_rating);
     cout<< "Predicted rating from age rating of " <<new_movie.age_rating<<" only : "<<age_rating_based_rating<<endl;
@@ -282,10 +293,12 @@ void predictRating(string dataset){
 
     cout<<endl<<"*******************          Results        ***************************"<<endl;
 
-    cout<<"Rating of movie, based on average on above analysis is: ";
+    cout<<endl<<"Rating of movie, based on average on above analysis is: ";
 
     printf("%.1f\n", ((duration_based_rating+budget_based_rating+age_rating_based_rating+genre_based_rating)/4));
 
+    cout<<endl<<endl;
+    cout<<"Program will now return to main menu. ";
     system("pause");
 }
 
