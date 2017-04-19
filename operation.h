@@ -6,7 +6,6 @@
 #include<cstdlib>
 #include<structs.h>
 #include<display.h>
-#include<math.h>
 
 using namespace std;
 
