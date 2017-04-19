@@ -29,17 +29,20 @@ void displayMenu(){
     cout<<"0. EXIT"<<endl;
 }
 
-void displayMovie(movie new_movie){
-    //displays movie information from a object of type movie
-    //USAGE : DEBUGGING PURPOSES
-    //use DisplayMovie(movie) to check contents of a movie object at any point.
+//USAGE : DEBUGGING PURPOSES
 
-        cout<<endl<<new_movie.title<<endl;
-        cout<<new_movie.genre<<endl;
-        cout<<new_movie.duration<<endl;
-        cout<<new_movie.age_rating<<endl;
-        cout<<new_movie.budget<<endl;
-        cout<<new_movie.rating<<endl;
-}
+//void displayMovie(movie new_movie){
+
+//    //displays movie information from a object of type movie
+//
+//    //use DisplayMovie(movie) to check contents of a movie object at any point.
+//
+//        cout<<endl<<new_movie.title<<endl;
+//        cout<<new_movie.genre<<endl;
+//        cout<<new_movie.duration<<endl;
+//        cout<<new_movie.age_rating<<endl;
+//        cout<<new_movie.budget<<endl;
+//        cout<<new_movie.rating<<endl;
+//}
 
 #endif // DISPLAY_H_INCLUDED
