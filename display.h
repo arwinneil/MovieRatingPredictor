@@ -30,6 +30,10 @@ void displayMenu(){
 }
 
 void displayMovie(movie new_movie){
+    //displays movie information from a object of type movie
+    //USAGE : DEBUGGING PURPOSES
+    //use DisplayMovie(movie) to check contents of a movie object at any point.
+
         cout<<endl<<new_movie.title<<endl;
         cout<<new_movie.genre<<endl;
         cout<<new_movie.duration<<endl;

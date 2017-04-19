@@ -215,6 +215,9 @@ equation computeL2(string dataset,string independent_var){
 
 float computeAverage(string dataset,string var,string val){
 
+    //function computes average rating of a variable var (genre or age rating)
+    //for a particular value val (e.g action / PG) of that variable
+
     ifstream file(dataset); //Opening file input
     string buffer;
 
@@ -234,7 +237,7 @@ float computeAverage(string dataset,string var,string val){
                     sumRating= sumRating+movie_buffer.rating;
                     counter++;
                 }
-            }else{
+            }else{ //"var =genre"
                         do{
 
                             string current_genre;
@@ -268,8 +271,6 @@ float computeAverage(string dataset,string var,string val){
     }
 
     file.close();
-
-
 
     if (counter==0){    //if movie rating or movie genre not found in dataset.
 
