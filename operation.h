@@ -140,6 +140,11 @@ movie toMovie(string line){
 
 equation computeL2(string dataset,string independent_var){
 
+    //function takes in path to dataset,and an independent var
+    //then calculate the equation of the regression line
+    //by using a Least Square Regression Algorithm and returns it
+    //as an object of type equation
+
     double SUMx = 0;     //sum of x values
     double SUMy = 0;     //sum of y values
     double SUMxy = 0;    //sum of x * y
@@ -208,7 +213,7 @@ equation computeL2(string dataset,string independent_var){
     return eqn;
 }
 
-float computeAvearge(string dataset,string var,string val){
+float computeAverage(string dataset,string var,string val){
 
     ifstream file(dataset); //Opening file input
     string buffer;
@@ -234,6 +239,10 @@ float computeAvearge(string dataset,string var,string val){
 
                             string current_genre;
 
+                            //Genres in file are separated with a |
+                            //the following piece of code breaks a string with multiple genres
+                            //to different individual genres
+
                             if((movie_buffer.genre.length()!=0)&&((movie_buffer.genre.find("|"))!=movie_buffer.genre.npos)){
                                     current_genre= movie_buffer.genre.substr(0,(movie_buffer.genre.find("|"))); //Reads genre up to first |
                                     movie_buffer.genre.erase(0,(movie_buffer.genre.find("|")+1));//erases string until and including first |
@@ -244,7 +253,7 @@ float computeAvearge(string dataset,string var,string val){
                                 }
 
 //                        cout<<endl<<"Current and test are "<<val<<" & "<<current_genre<<endl;
-//                        system("pause");  //Code to analyse what movie genres are being compared, debugging purposes
+//                        system("pause");  //Uncomment code to analyse what movie genres are being compared, debugging purposes
 
                         if (val==current_genre){
 
@@ -258,7 +267,11 @@ float computeAvearge(string dataset,string var,string val){
             }
     }
 
-    if (counter==0){
+    file.close();
+
+
+
+    if (counter==0){    //if movie rating or movie genre not found in dataset.
 
         cout<<endl<<"NO RECORDS CONTAINING "<<val<<" HAS BEEN FOUND IN DATASET! "<<endl;
         cout<<"Please consider using another "<<var<<" or change your dataset"<<endl;
@@ -272,6 +285,9 @@ float computeAvearge(string dataset,string var,string val){
 }
 
 void predictRating(string dataset){
+
+    //This function is the movie prediction screen. Calls computeL2() and computeAverage()  to calculate sub-predictions
+    //Final prediction is obtained by averaging all sub-predictions
 
     cout<<endl<<"***********************************************************************"<<endl;
     cout<<"*                      Movie Rating Prediction                        *"<<endl;
@@ -292,10 +308,10 @@ void predictRating(string dataset){
     cout<< "Predicted rating from budget only : "<<budget_based_rating<<" on 10."<<endl;
 
 
-   float age_rating_based_rating = computeAvearge(dataset,"age_rating",new_movie.age_rating);
+   float age_rating_based_rating = computeAverage(dataset,"age_rating",new_movie.age_rating);
     cout<< "Predicted rating from age rating of " <<new_movie.age_rating<<" only : "<<age_rating_based_rating<<" on 10."<<endl;
 
-    float genre_based_rating = computeAvearge(dataset,"genre",new_movie.genre);
+    float genre_based_rating = computeAverage(dataset,"genre",new_movie.genre);
     cout<< "Predicted rating from " <<new_movie.genre<<" movies only : "<<genre_based_rating<<" on 10."<<endl;
 
     cout<<endl<<"*******************          Results        ***************************"<<endl;
