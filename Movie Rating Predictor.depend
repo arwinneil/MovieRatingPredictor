@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1491720482 source:c:\users\admin\assignment\movieratingpredictor\main.cpp
+1492386179 source:c:\users\admin\assignment\movieratingpredictor\main.cpp
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -8,20 +8,19 @@
 
 1491594216 c:\users\admin\assignment\movieratingpredictor\\userinput.h
 
-1491743105 c:\users\admin\assignment\movieratingpredictor\\display.h
+1492624091 c:\users\admin\assignment\movieratingpredictor\\display.h
 	<iostream>
 	<fstream>
 	<structs.h>
 	<stdlib.h>
 
-1491764022 c:\users\admin\assignment\movieratingpredictor\\operation.h
+1492624462 c:\users\admin\assignment\movieratingpredictor\\operation.h
 	<iostream>
 	<string>
 	<fstream>
 	<cstdlib>
 	<structs.h>
 	<display.h>
-	<math.h>
 
 1491736363 c:\users\admin\assignment\movieratingpredictor\\structs.h
 	<iostream>
